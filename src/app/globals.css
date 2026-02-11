@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #FFFDF8;
+  --color-dark: #1A1A1A;
+  --color-brand: #2563EB;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.dark body {
+  background: var(--color-dark);
+  color: var(--color-cream);
+}
